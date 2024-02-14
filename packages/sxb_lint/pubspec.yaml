@@ -1,0 +1,16 @@
+name: sxb_lint
+description: Some example custom lints for the flutter sxb meetup.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  analyzer: any
+  analyzer_plugin: any
+  change_case: ^2.0.1
+  custom_lint_builder: ^0.6.0
+
+dev_dependencies:
+  custom_lint: ^0.6.0

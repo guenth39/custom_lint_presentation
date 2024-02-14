@@ -1,0 +1,14 @@
+# The pubspec.yaml of an application using our lints
+name: example_app
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_deck: ^0.11.0
+
+dev_dependencies:
+  custom_lint: ^0.6.0
+  sxb_lint:
+    path: ../
